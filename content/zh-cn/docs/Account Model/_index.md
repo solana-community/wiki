@@ -1,6 +1,5 @@
 ---
 title: "Account Model"
-date: 2021-04-04
 description: >
   A high-level overview of the account model in Solana's runtime called Sealevel
 ---

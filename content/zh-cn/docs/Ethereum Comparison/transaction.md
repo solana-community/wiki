@@ -1,6 +1,5 @@
 ---
 title: "Transactions"
-date: 2021-04-25
 weight: 2
 description: >
   Major differences between Ethereum and Solana transactions
