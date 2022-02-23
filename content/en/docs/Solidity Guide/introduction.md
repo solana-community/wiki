@@ -41,6 +41,8 @@ design their smart contracts to be parallelizable. Developers are encouraged to 
 their smart contract state across many different accounts that can be used in parallel
 transactions without data conflicts.
 
+Another advantage of the program/account model on solana is you can have one generic program that operates on various data. the best example of this is the spl token program. to create a new token, you dont need to deploy code like you do on ethereum. you create an account that can mint tokens, and more accounts that can receive them. The mint address uniquely determines the token type, and these are all passed as arguments to one static program instance.
+
 #### Transaction Parallelization
 
 Each Solana transaction must list *all* of the accounts that it will read from,
