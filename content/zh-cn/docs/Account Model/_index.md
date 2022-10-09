@@ -14,7 +14,7 @@ actually completely stored in other accounts. To ensure that contracts can't
 modify another contract's state, each account assigns an owner contract which has exclusive
 control over state mutations.
 
-To visualize this difference here's what the storage a token contract would look like on
+To visualize this difference here's what the storage for a token contract would look like on
 either platform.
 
 On Ethereum, token contracts typically have a `mapping` which defines the balance for each
@@ -53,7 +53,7 @@ address is derived from the address of the owner account.
 [`4QbFwKK2…`]: https://explorer.solana.com/address/4QbFwKK2iRSmuWYyjYuJbA7s6QAgswErEPndrvrC2kzp
 [`8t7vxGWe…`]: https://explorer.solana.com/address/8t7vxGWe18TPv4jKNpq9yysszaz8ZFVy1rXWrTcCMLVZ
 
-In Ethereum's EVM, there are two types of accounts. Basic accounts which simply store
+In the Ethereum Virtual Machine (EVM), there are two types of accounts. Basic accounts which simply store
 a balance of wei, and code accounts which form the basis for on-chain smart contracts.
 Each code account, in addition to storing EVM code, all have an associated storage map
 which can be used to read and write arbitrary data. The EVM provides instructions
