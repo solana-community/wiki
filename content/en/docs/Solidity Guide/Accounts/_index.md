@@ -15,7 +15,7 @@ actually completely stored in other accounts. To ensure that contracts can't
 modify another contract's state, each account assigns an **owner contract** which has *exclusive*
 control over state mutations.
 
-To visualize this difference here's what the storage a token contract would look like on
+To visualize this difference here's what the storage of a token contract would look like on
 either platform.
 
 On Ethereum, token contracts typically have a `mapping` which defines the balance for each
